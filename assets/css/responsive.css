@@ -315,9 +315,9 @@
     .facts-area.section-padding {
         padding: 40px 0;
     }
-    .section-padding {
-        padding-bottom: 0px;
-    }
+    .service-area.section-padding {
+    padding-bottom: 80px;
+}
     .single-testimonial {
         width: 80%;
     }
