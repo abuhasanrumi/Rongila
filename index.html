@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rongila</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body data-spy="scroll" data-target=".top-nav" data-offset="0">
+    
+    <div class="slider-area" id="home">
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="logo col-md-3">
+                        <a href="#home"><img src="assets/img/logo.png" alt="Rongila Logo"></a>
+                    </div>
+                    <div class="top-nav col-md-9">
+                        <ul class="main-nav navbar-nav navbar-expand-sm">
+                            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">about</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#service">Service</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile-menu col-md-1 text-right offset-md-8" >
+                        <span style="color: #555;" onclick="openNav()"><i class="fas fa-bars"></i></span>
+                        <div id="myNav" class="overlay">
+                            <a href="javascript:void(0)" onclick="closeNav()" class="closebtn">&times;</a>
+                            <div class="overlay-content">
+                                <a onClick="closeNav()" id="navSameID1" href="#home">Home</a>
+                                <a onClick="closeNav()" id="navSameID2" href="#about">About</a>
+                                <a onClick="closeNav()" id="navSameID3" href="#service">Service</a>
+                                <a onClick="closeNav()" id="navSameID4" href="#resume">Resume</a>
+                                <a onClick="closeNav()" id="navSameID5" href="#portfolio">Portfolio</a>
+                                <a onClick="closeNav()" id="navSameID6" href="#blog">Blog</a>
+                                <a onClick="closeNav()" id="navSameID7" href="#contact">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-area">
+            <div class="container">
+                <div class="row h-100">
+                    <div class="text-area col-md-6 my-auto">
+                        <div class="text-block">
+                            <p class="hello">Hello,</p>
+                            <h1>I am John Smith</h1>
+                            <p class="title">Freelance web Designer <span>@ Developer</span></p>
+                            <input type="button" value="hire">
+                        </div>
+                    </div>
+                    <div class="img-area col-md-6">
+                        <img src="assets/img/man.png" alt="Man standing">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-area section-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="title-section about-title col-md-12 text-center">
+                    <h2>About me</h2>
+                    <span class="underline">
+                        <span class="cir"></span>
+                        <span class="line1"></span>
+                        <span class="cir"></span>
+                        <div class="line2"></div>
+                    </span>
+                </div>
+
+                <div class="about-img">
+                    <div class="white-img">
+                        <img src="assets/img/man3.png" alt="Man Image">
+                    </div>
+                </div>
+
+                <div class="about-text">
+                    <p class="about-title">Hello, I am John Smith. I am a freelance web designer or developer from Feni, Bangladesh.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque iure quas molestiae vel! Ipsa neque sunt aliquid fugiat cumque nulla veniam dignissimos suscipit rerum omnis.</p>
+                    <div class="identity">
+                        <div class="container">
+                            <div class="row">
+                                <div class="names">
+                                    <p>Name:</p>
+                                    <p>Email:</p>
+                                    <p>Phone:</p>
+                                    <p>Date of Birth:</p>
+                                    <p>Nationality:</p>
+                                    <p>Address:</p>
+                                </div>
+                                <div class="information">
+                                    <p>John Smith</p>
+                                    <p>johnsmith@gmail.com</p>
+                                    <p>+8801526423523</p>
+                                    <p>21-Oct-1990</p>
+                                    <p>Bangladesh</p>
+                                    <p>1212 Dhaka, Rampura, Btv Bhobon</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="about-btns">
+                                <input type="button" value="Hire Me">
+                                <input class="download" type="button" value="Download CV">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="service-area section-padding" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="title-section service-title col-md-12 text-center">
+                    <h2>Service</h2>
+                    <span class="underline">
+                        <span class="cir"></span>
+                        <span class="line1"></span>
+                        <span class="cir"></span>
+                        <div class="line2"></div>
+                    </span>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="services-list">
+                            <div class="single-service col-sm-12">
+                                <div class="card-icon"><i class="fas fa-paint-brush"></i></div>
+                                <div class="card-title"><h3>Web Design</h3></div>
+                                <div class="card-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias odio corporis nobis voluptates dicta quas?</p> </div>
+                            </div>
+                            <div class="single-service col-sm-12">
+                                <div class="card-icon"><i class="fas fa-desktop"></i>
+                                </div>
+                                <div class="card-title"><h3>Web Development</h3></div>
+                                <div class="card-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias odio corporis nobis voluptates dicta quas?</p> </div>
+                            </div>
+                            <div class="single-service col-sm-12">
+                                <div class="card-icon"><i class="fas fa-pen"></i>
+                                </div>
+                                <div class="card-title"><h3>Photography</h3></div>
+                                <div class="card-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias odio corporis nobis voluptates dicta quas?</p> </div>
+                            </div>
+                            <div class="single-service col-sm-12">
+                                <div class="card-icon"><i class="fas fa-headphones"></i>
+                                </div>
+                                <div class="card-title"><h3>Marketing</h3></div>
+                                <div class="card-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias odio corporis nobis voluptates dicta quas?</p> </div>
+                            </div>
+                            <div class="single-service col-sm-12">
+                                <div class="card-icon"><i class="fas fa-edit"></i>
+                                </div>
+                                <div class="card-title"> <h3>SEO &amp; SMM</h3> </div>
+                                <div class="card-text"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias odio corporis nobis voluptates dicta quas?</p> </div>
+                            </div>
+                            <div class="single-service col-sm-12">
+                                <div class="card-icon"><i class="fas fa-cart-plus"></i>
+                                </div>
+                                <div class="card-title"><h3>Woo-Commerce</h3></div>
+                                <div class="card-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias odio corporis nobis voluptates dicta quas?</p> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="facts-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="facts">
+                    <div class="single-fact">
+                        <div class="fact-icon"><i class="fas fa-heart"></i></div>
+                        <div class="fact-num">275+</div>
+                        <div class="fact-text">Lorem ipsum</div>
+                    </div>
+                    <div class="single-fact">
+                        <div class="fact-icon"><i class="fas fa-chart-line"></i></div>
+                        <div class="fact-num">75346</div>
+                        <div class="fact-text">Lorem ipsum</div>
+                    </div>
+                    <div class="single-fact">
+                        <div class="fact-icon"><i class="fas fa-coffee"></i></div>
+                        <div class="fact-num">4725</div>
+                        <div class="fact-text">Lorem ipsum</div>
+                    </div>
+                    <div class="single-fact">
+                        <div class="fact-icon"><i class="fas fa-star"></i></div>
+                        <div class="fact-num">159+</div>
+                        <div class="fact-text">Lorem ipsum</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills-area section-padding" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="title-section skills-title col-md-12 text-center">
+                    <h2>My Skills</h2>
+                    <span class="underline">
+                        <span class="cir"></span>
+                        <span class="line1"></span>
+                        <span class="cir"></span>
+                        <div class="line2"></div>
+                    </span>
+                </div>
+
+                <div class="design-area">
+                    <div class="design-text">
+                        <h3>Design Skills</h3>
+                        <div class="skill-line"></div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non odit quo eveniet delectus beatae quae provident</p>
+                    </div>
+
+                    <div class="wrapper wow fadeInLeftRight">
+                        <div class="skill">
+                            <p>Graphic Design</p>
+                            <div class="skill-bar skill1 wow slideInLeft animated">
+                                <span class="skill-count1">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Photoshop</p>
+                            <div class="skill-bar skill2 wow slideInLeft animated">
+                                <span class="skill-count2">72%</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Illustration</p>
+                            <div class="skill-bar skill3 wow slideInLeft animated">
+                                <span class="skill-count3">60%</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Print Design</p>
+                            <div class="skill-bar skill4 wow slideInLeft animated">
+                                <span class="skill-count4">84%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="design-area">
+                    <div class="design-text">
+                        <h3>Coding Skills</h3>
+                        <div class="skill-line"></div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non odit quo eveniet delectus beatae quae provident</p>
+                    </div>
+
+                    <div class="wrapper">
+                        <div class="skill">
+                            <p>Web Design</p>
+                            <div class="skill-bar skill1 wow slideInLeft animated">
+                                <span class="skill-count1">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Web Development</p>
+                            <div class="skill-bar skill2 wow slideInLeft animated">
+                                <span class="skill-count2">72%</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Data Analysis</p>
+                            <div class="skill-bar skill3 wow slideInLeft animated">
+                                <span class="skill-count3">60%</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Machine Learning</p>
+                            <div class="skill-bar skill4 wow slideInLeft animated">
+                                <span class="skill-count4">84%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hire-area facts-area section-padding" id="hire">
+        <div class="container">
+            <div class="row h-100">
+                <div class="text-area col-md-8 myauto">
+                    <div class="hire-text-block">
+                        <h3>I'm available <span>for Freelancer Projects!</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hireme-btn ">
+                        <input type="button" value="Hire me">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="resume-area section-padding" id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="title-section about-title col-md-12 text-center">
+                    <h2>Resume</h2>
+                    <span class="underline">
+                        <span class="cir"></span>
+                        <span class="line1"></span>
+                        <span class="cir"></span>
+                        <div class="line2"></div>
+                    </span>
+                </div>
+
+                <div class="edu-area">
+                    <div class="edu-text">
+                        <h3>Education</h3>
+                        <div class="resume-line1"></div>
+                        <div class="resume-line2"></div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non odit quo eveniet delectus beatae quae provident</p>
+                    </div>
+
+                    <div class="resume-cards">
+                        <div class="single-resume">
+                            <div class="resume-triangle"></div>
+                            <div class="resume-date">
+                                <p>25 October 2015 - 27 March 2017</p>
+                            </div>
+                            <div class="resume-title">
+                                <h4>Professional Art & Web Design</h4>
+                            </div>
+                            <div class="resume-text">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo laudantium adipisci amet eligendi at? Ullam, ducimus quaerat. Explicabo, quas. Lorem consectetur. </p>
+                            </div>
+                        </div>
+                        <div class="single-resume">
+                            <div class="resume-triangle"></div>
+                            <div class="resume-date">
+                                <p>25 October 2015 - 27 March 2017</p>
+                            </div>
+                            <div class="resume-title">
+                                <h4>High School Certificate</h4>
+                            </div>
+                            <div class="resume-text">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo laudantium adipisci amet eligendi at? Ullam, ducimus quaerat. Explicabo, quas. Lorem consectetur. </p>
+                            </div>
+                        </div>
+                        <div class="single-resume">
+                            <div class="resume-triangle"></div>
+                            <div class="resume-date">
+                                <p>25 October 2015 - 27 March 2017</p>
+                            </div>
+                            <div class="resume-title">
+                                <h4>Secondary School Certificate</h4>
+                            </div>
+                            <div class="resume-text">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo laudantium adipisci amet eligendi at? Ullam, ducimus quaerat. Explicabo, quas. Lorem consectetur.  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="edu-area">
+                    <div class="edu-text">
+                        <h3>Experience</h3>
+                        <div class="resume-line1"></div>
+                        <div class="resume-line2"></div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non odit quo eveniet delectus beatae quae provident</p>
+                    </div>
+
+                    <div class="resume-cards">
+                        <div class="single-resume">
+                            <div class="resume-triangle"></div>
+                            <div class="resume-date">
+                                <p>25 October 2015 - 27 March 2017</p>
+                            </div>
+                            <div class="resume-title">
+                                <h4>Professional Art &amp; Web Design</h4>
+                            </div>
+                            <div class="resume-text">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo laudantium adipisci amet eligendi at? Ullam, ducimus quaerat. Explicabo, quas. Lorem consectetur. </p>
+                            </div>
+                        </div>
+                        <div class="single-resume">
+                            <div class="resume-triangle"></div>
+                            <div class="resume-date">
+                                <p>25 October 2015 - 27 March 2017</p>
+                            </div>
+                            <div class="resume-title">
+                                <h4>Web Developer</h4>
+                            </div>
+                            <div class="resume-text">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo laudantium adipisci amet eligendi at? Ullam, ducimus quaerat. Explicabo, quas. Lorem consectetur.  </p>
+                            </div>
+                        </div>
+                        <div class="single-resume">
+                            <div class="resume-triangle"></div>
+                            <div class="resume-date">
+                                <p>25 October 2015 - 27 March 2017</p>
+                            </div>
+                            <div class="resume-title">
+                                <h4>UI/UX Designer</h4>
+                            </div>
+                            <div class="resume-text">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo laudantium adipisci amet eligendi at? Ullam, ducimus quaerat. Explicabo, quas. Lorem consectetur. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial-area section-padding" >
+        <div class="container">
+            <div class="row">
+                <div class="title-section testimonial-title col-md-12 text-center">
+                    <h2>Testimonials</h2>
+                    <span class="underline">
+                        <span class="cir"></span>
+                        <span class="line1"></span>
+                        <span class="cir"></span>
+                        <div class="line2"></div>
+                    </span>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            </ol>
+
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="single-testimonial owl-item">
+                                        <div class="testi-img">
+                                            <img src="http://placehold.it/120x120" alt="">
+                                        </div>
+
+                                        <div class="testi-text">
+                                            <div class="testi-title">
+                                                <h4>Abu Hasan Rumi</h4>
+                                                <p>Founder of Facebook</p>
+                                            </div>
+                                            <div class="testi-des">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, a quis vitae amet, repudiandae dolorem, blanditiis similique perferendis veniam id et earum soluta eos eum!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="single-testimonial owl-item">
+                                        <div class="testi-img">
+                                            <img src="http://placehold.it/120x120" alt="">
+                                        </div>
+
+                                        <div class="testi-text">
+                                            <div class="testi-title">
+                                                <h4>Abu Hasan Rumi</h4>
+                                                <p>Founder of Facebook</p>
+                                            </div>
+                                            <div class="testi-des">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, a quis vitae amet, repudiandae dolorem, blanditiis similique perferendis veniam id et earum soluta eos eum!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="item">
+                                    <div class="single-testimonial owl-item">
+                                        <div class="testi-img">
+                                            <img src="http://placehold.it/120x120" alt="">
+                                        </div>
+
+                                        <div class="testi-text">
+                                            <div class="testi-title">
+                                                <h4>Abu Hasan Rumi</h4>
+                                                <p>Founder of Facebook</p>
+                                            </div>
+                                            <div class="testi-des">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, a quis vitae amet, repudiandae dolorem, blanditiis similique perferendis veniam id et earum soluta eos eum!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="single-testimonial owl-item">
+                                        <div class="testi-img">
+                                            <img src="http://placehold.it/120x120" alt="">
+                                        </div>
+
+                                        <div class="testi-text">
+                                            <div class="testi-title">
+                                                <h4>Abu Hasan Rumi</h4>
+                                                <p>Founder of Facebook</p>
+                                            </div>
+                                            <div class="testi-des">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, a quis vitae amet, repudiandae dolorem, blanditiis similique perferendis veniam id et earum soluta eos eum!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-area section-padding" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="title-section projects-title col-md-12 text-center">
+                    <h2>Largest Projects</h2>
+                    <span class="underline">
+                        <span class="cir"></span>
+                        <span class="line1"></span>
+                        <span class="cir"></span>
+                        <div class="line2"></div>
+                    </span>
+                </div>
+
+                <div class="col-md-12 port-nav text-center">
+                    <ul>
+                        <li class="mactive" data-filter="*">All</li>
+                        <li data-filter=".web">Web</li>
+                        <li data-filter=".graphic">Graphic</li>
+                        <li data-filter=".print">Print</li>
+                        <li data-filter=".illustration">Illustration</li>
+                    </ul>
+                </div>
+
+                <div class="port-items col-md-12 text-center">
+                            <div class="portfolio-item">
+                                <div class="col-md-4 web port-img">
+                                    <img src="assets/img/port1.jpg" alt="">
+                                </div>
+                                <div class="col-md-4 graphic port-img">
+                                    <img src="assets/img/port2.jpg" alt="">
+                                </div>
+                                <div class="col-md-4 print port-img">
+                                    <img src="assets/img/port3.jpg" alt="">
+                                </div>
+                                <div class="col-md-4 illustration port-img">
+                                    <img src="assets/img/port4.jpg" alt="">
+                                </div>
+                                <div class="col-md-4 illustration graphic port-img">
+                                    <img src="assets/img/port5.jpg" alt="">
+                                </div>
+                                <div class="col-md-4 web graphic port-img">
+                                    <img src="assets/img/port6.jpg" alt="">
+                                </div>
+                                <div class="col-md-4 illustration print port-img">
+                                    <img src="assets/img/port7.jpg" alt="">
+                                </div>
+                                <div class="col-md-4 web print port-img">
+                                    <img src="assets/img/port8.jpg" alt="">
+                                </div>
+                                <div class="col-md-4 graphic print port-img">
+                                    <img src="assets/img/port9.jpg" alt="">
+                                </div>
+                            </div>
+                       
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-area section-padding" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="title-section projects-title col-md-12 text-center">
+                    <h2>My Blog</h2>
+                    <span class="underline">
+                        <span class="cir"></span>
+                        <span class="line1"></span>
+                        <span class="cir"></span>
+                        <div class="line2"></div>
+                    </span>
+                </div>
+
+                <div class="blog-list col-md-12 text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="single-blog">
+                                <div class="blog-content">
+                                    <div class="blog-img">
+                                        <img src="assets/img/port2.jpg" alt="">
+                                    </div>
+                                    <div class="blog-text">
+                                        <h3>Lorem ipsum dolor sit amet consectetur </h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quisquam. Dolorum fuga mollitia, magni necessitatibus ut aliquam.</p>
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="single-blog">
+                                <div class="blog-content">
+                                    <div class="blog-img">
+                                        <img src="assets/img/port3.jpg" alt="">
+                                    </div>
+                                    <div class="blog-text">
+                                        <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quisquam. Dolorum fuga mollitia, magni necessitatibus ut aliquam.</p>
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-blog">
+                                <div class="blog-content">
+                                    <div class="blog-img">
+                                        <img src="assets/img/port4.jpg" alt="">
+                                    </div>
+                                    <div class="blog-text">
+                                        <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quisquam. Dolorum fuga mollitia, magni necessitatibus ut aliquam.</p>
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-area section-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="title-section projects-title col-md-12 text-center">
+                    <h2>Contact Me</h2>
+                    <span class="underline">
+                        <span class="cir"></span>
+                        <span class="line1"></span>
+                        <span class="cir"></span>
+                        <div class="line2"></div>
+                    </span>
+                </div>
+
+                <div class="contact-text">
+                    <div class="contact-left col-md-3">
+                            <i class="fas fa-home"></i>
+                            <i class="fas fa-phone"></i>
+                            <i class="fas fa-map-marker-alt"></i>
+                        </ul>
+                    </div>
+                    <div class="contact-right col-md-8">
+                        <p>contactme@gmail.com<span>contactme@company.com</span></p>
+                        <p>+8801672573456<span>+8801952473517</span></p>
+                        <p>Dhaka 1200, Rampura. <span>Banglabazar, Dhaka</span></p>
+                    </div>
+                </div>
+
+                <div class="contact-form ">
+                    <form action="post text-center">
+                        <div class="name name-email">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="email name-email">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="text-area">
+                            <textarea placeholder="Your Message" id="#" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="col-md-12 text-left submit-btn">
+                            <input type="submit" value="Send Message">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="footer-left">
+                            <p>One page portfolio template <span>by Abu Hasan Rumi &copy; 2019</span> </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="footer-right">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <script src="assets/js/jquery-3.3.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/isotope.pkgd.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
